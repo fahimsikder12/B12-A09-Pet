@@ -1,0 +1,110 @@
+[
+  {
+    "serviceId": 1,
+    "serviceName": "Winter Coat Fitting for Dogs",
+    "providerName": "PawCare Studio",
+    "providerEmail": "info@pawcare.com",
+    "price": 25,
+    "rating": 4.9,
+    "slotsAvailable": 4,
+    "description": "Custom coat fitting and warm outfit options to keep your dog comfortable in the cold.",
+    "image": "https://i.postimg.cc/example1.png",
+    "category": "Clothing"
+  },
+  {
+    "serviceId": 2,
+    "serviceName": "Winter Grooming & Paw Treatment",
+    "providerName": "CozyPets Grooming",
+    "providerEmail": "hello@cozypets.com",
+    "price": 30,
+    "rating": 4.8,
+    "slotsAvailable": 3,
+    "description": "Professional grooming with moisturizing paw balm and winter-safe shampoo.",
+    "image": "https://i.postimg.cc/example2.png",
+    "category": "Grooming"
+  },
+  {
+    "serviceId": 3,
+    "serviceName": "Emergency Winter Vet Consultation",
+    "providerName": "WinterVet Care",
+    "providerEmail": "support@wintervet.com",
+    "price": 50,
+    "rating": 4.9,
+    "slotsAvailable": 6,
+    "description": "24/7 emergency veterinary support for winter-related health issues.",
+    "image": "https://i.postimg.cc/example3.png",
+    "category": "Healthcare"
+  },
+  {
+    "serviceId": 4,
+    "serviceName": "Winter Nutrition Planning",
+    "providerName": "PetNutrition Experts",
+    "providerEmail": "consult@petnutrition.com",
+    "price": 35,
+    "rating": 4.7,
+    "slotsAvailable": 8,
+    "description": "Custom diet plans to maintain pet health and energy during winter months.",
+    "image": "https://i.postimg.cc/example4.png",
+    "category": "Nutrition"
+  },
+  {
+    "serviceId": 5,
+    "serviceName": "Indoor Training Sessions",
+    "providerName": "SmartPaws Academy",
+    "providerEmail": "train@smartpaws.com",
+    "price": 45,
+    "rating": 4.8,
+    "slotsAvailable": 5,
+    "description": "Indoor obedience training to keep pets active during cold weather.",
+    "image": "https://i.postimg.cc/example5.png",
+    "category": "Training"
+  },
+  {
+    "serviceId": 6,
+    "serviceName": "Pet Winter Photography",
+    "providerName": "SnowPaws Studio",
+    "providerEmail": "book@snowpaws.com",
+    "price": 60,
+    "rating": 4.9,
+    "slotsAvailable": 2,
+    "description": "Winter-themed professional photography sessions for your pets.",
+    "image": "https://i.postimg.cc/example6.png",
+    "category": "Photography"
+  },
+  {
+    "serviceId": 7,
+    "serviceName": "Winter Pet Sitting",
+    "providerName": "CozyCare Sitters",
+    "providerEmail": "care@cozycare.com",
+    "price": 40,
+    "rating": 4.7,
+    "slotsAvailable": 7,
+    "description": "Warm indoor pet sitting with special winter care attention.",
+    "image": "https://i.postimg.cc/example7.png",
+    "category": "Daycare"
+  },
+  {
+    "serviceId": 8,
+    "serviceName": "Paw Protection Service",
+    "providerName": "PawGuard Professionals",
+    "providerEmail": "service@pawguard.com",
+    "price": 20,
+    "rating": 4.6,
+    "slotsAvailable": 10,
+    "description": "Special paw wax application and protection from ice and salt.",
+    "image": "https://i.postimg.cc/example8.png",
+    "category": "Grooming"
+  },
+  {
+    "serviceId": 9,
+    "serviceName": "Winter Pet Taxi Service",
+    "providerName": "SafeRide Pet Transport",
+    "providerEmail": "ride@saferide.com",
+    "price": 25,
+    "rating": 4.5,
+    "slotsAvailable": 12,
+    "description": "Heated vehicle transport for vet visits during winter.",
+    "image": "https://i.postimg.cc/example9.png",
+    "category": "Transport"
+  }
+]
