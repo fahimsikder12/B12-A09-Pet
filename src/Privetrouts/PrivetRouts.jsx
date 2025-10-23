@@ -1,5 +1,5 @@
 import { AuthContext } from '../Context/AuthContext'
-import { Navigate, useLocation } from 'react-router';
+import { Navigate, Outlet, useLocation } from 'react-router';
 import Loading from '../Peges/Loading';
 import { useContext } from 'react';
 
@@ -16,7 +16,6 @@ function PrivetRouts({children}) {
         return <Navigate state={location?.pathname}  to='/login'></Navigate>
     }
 
-  return children;
-}
+  return children ? children : <Outlet />;}
 
 export default PrivetRouts
