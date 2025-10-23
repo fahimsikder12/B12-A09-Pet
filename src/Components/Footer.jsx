@@ -13,6 +13,7 @@ function Footer() {
           <p>Email: support@PawsCare.com</p>
           <p>Phone: +123 456 7890</p>
           <p>Address: 123 Smart Street, Paws Care City</p>
+          <p></p>
         </div>
 
         {/* Quick Links */}

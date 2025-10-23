@@ -34,13 +34,8 @@ function HoomDetails() {
     setComment("");
   };
 
-console.log(data)
-  
-console.log("ID from URL:", id);
-console.log("All data:", data);
 
 const singleHome = data.find(item => item.Id === Number(id));
-console.log("singlehome:", singleHome);
 
 
   if (!id) {
