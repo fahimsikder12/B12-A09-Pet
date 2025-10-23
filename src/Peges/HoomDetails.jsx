@@ -33,22 +33,23 @@ function HoomDetails() {
     setRatting("");
     setComment("");
   };
-console.log("Data from loader:", data);
-console.log("Params ID:", id)
-
- const singleHome = data?.find(home => home?.id?.toString() === id);
-
- 
+  // console.log("Data from loader:", data);
+  // console.log("Params ID:", id)
+  console.log("First item:", data[0]);
+  console.log("All properties:", Object.keys(data[0]));
+  //  const singleHome = data.find(home => home.serviceid == id);
+  const singleHome = data.find(home => home.Id == id) || data[0];
+  console.log("singlehome", singleHome);
 
   if (!id) {
-    return <p className="text-center text-red-500 mt-10">No service ID provided</p>;
+    return (
+      <p className="text-center text-red-500 mt-10">No service ID provided</p>
+    );
   }
 
   if (!singleHome) {
-    return <p className="text-center text-red-500 mt-10">Service not found</p>;
-  }
-
-
+  return <div className="text-center p-10">Service not found!</div>;
+}
   return (
     <div>
       <Helmet>
@@ -81,9 +82,13 @@ console.log("Params ID:", id)
                 Features
               </h3>
               <p className="text-lg text-gray-700">
-                {singleHome.features.map((feature, index) => (
-                  <li key={index}>{feature}</li>
-                ))}
+                {singleHome.features ? (
+                  singleHome.features.map((feature, index) => (
+                    <li key={index}>{feature}</li>
+                  ))
+                ) : (
+                  <li>No features available</li>
+                )}
               </p>
             </div>
 

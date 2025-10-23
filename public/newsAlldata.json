@@ -1,6 +1,6 @@
 [
   {
-    "serviceId": 1,
+    "Id": 1,
     "serviceName": "Winter Coat Fitting for Dogs",
     "providerName": "PawCare Studio",
     "providerEmail": "info@pawcare.com",
@@ -12,7 +12,7 @@
     "category": "Clothing"
   },
   {
-    "serviceId": 2,
+    "Id": 2,
     "serviceName": "Winter Grooming & Paw Treatment",
     "providerName": "CozyPets Grooming",
     "providerEmail": "hello@cozypets.com",
@@ -24,7 +24,7 @@
     "category": "Grooming"
   },
   {
-    "serviceId": 3,
+    "Id": 3,
     "serviceName": "Emergency Winter Vet Consultation",
     "providerName": "WinterVet Care",
     "providerEmail": "support@wintervet.com",
@@ -36,7 +36,7 @@
     "category": "Healthcare"
   },
   {
-    "serviceId": 4,
+    "Id": 4,
     "serviceName": "Winter Nutrition Planning",
     "providerName": "PetNutrition Experts",
     "providerEmail": "consult@petnutrition.com",
@@ -48,7 +48,7 @@
     "category": "Nutrition"
   },
   {
-    "serviceId": 5,
+    "Id": 5,
     "serviceName": "Indoor Training Sessions",
     "providerName": "SmartPaws Academy",
     "providerEmail": "train@smartpaws.com",
@@ -60,7 +60,7 @@
     "category": "Training"
   },
   {
-    "serviceId": 6,
+    "Id": 6,
     "serviceName": "Pet Winter Photography",
     "providerName": "SnowPaws Studio",
     "providerEmail": "book@snowpaws.com",
@@ -72,7 +72,7 @@
     "category": "Photography"
   },
   {
-    "serviceId": 7,
+    "Id": 7,
     "serviceName": "Winter Pet Sitting",
     "providerName": "CozyCare Sitters",
     "providerEmail": "care@cozycare.com",
@@ -84,7 +84,7 @@
     "category": "Daycare"
   },
   {
-    "serviceId": 8,
+    "Id": 8,
     "serviceName": "Paw Protection Service",
     "providerName": "PawGuard Professionals",
     "providerEmail": "service@pawguard.com",
@@ -96,7 +96,7 @@
     "category": "Grooming"
   },
   {
-    "serviceId": 9,
+    "Id": 9,
     "serviceName": "Winter Pet Taxi Service",
     "providerName": "SafeRide Pet Transport",
     "providerEmail": "ride@saferide.com",
