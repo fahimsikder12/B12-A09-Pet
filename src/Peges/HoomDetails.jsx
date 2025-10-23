@@ -34,7 +34,7 @@ function HoomDetails() {
     setComment("");
   };
 
-
+console.log(data)
   
 console.log("ID from URL:", id);
 console.log("All data:", data);
