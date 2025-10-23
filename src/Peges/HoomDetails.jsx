@@ -33,13 +33,15 @@ function HoomDetails() {
     setRatting("");
     setComment("");
   };
-  // console.log("Data from loader:", data);
-  // console.log("Params ID:", id)
-  console.log("First item:", data[0]);
-  console.log("All properties:", Object.keys(data[0]));
-  //  const singleHome = data.find(home => home.serviceid == id);
-  const singleHome = data.find(home => home.Id == id) || data[0];
-  console.log("singlehome", singleHome);
+
+
+  
+console.log("ID from URL:", id);
+console.log("All data:", data);
+
+const singleHome = data.find(item => item.Id === Number(id));
+console.log("singlehome:", singleHome);
+
 
   if (!id) {
     return (
@@ -48,13 +50,14 @@ function HoomDetails() {
   }
 
   if (!singleHome) {
-  return <div className="text-center p-10">Service not found!</div>;
-}
+    return <div className="text-center p-10">Service not found!</div>;
+  }
   return (
     <div>
       <Helmet>
-        <title>{singleHome.serviceName} | Paws+Details</title>
+        <title>{singleHome ? singleHome.serviceName : "Loading..."}</title>
       </Helmet>
+
       <div className="bg-gray-300 min-h-screen p-2">
         <div className="container mx-auto my-10 p-6 bg-white shadow-lg rounded-lg">
           <div className="lg:w-3/4">
@@ -62,9 +65,9 @@ function HoomDetails() {
               {singleHome.serviceName}
             </h1>
             <img
-              src={singleHome.banner}
+              src={singleHome.image}
               alt={singleHome.serviceName}
-              className="  rounded-lg mb-4 w-[90%] h-[400px]"
+              className="rounded-lg mb-4 w-[90%] h-[400px]"
             />
             <p className="text-lg text-gray-700 mb-4 font-semibold">
               {singleHome.description}
@@ -72,9 +75,9 @@ function HoomDetails() {
             <p className="text-lg text-gray-700 mb-4">
               <strong>Subscription Price:</strong> ${singleHome.price}/month
               <br />
-              <strong> Frequency:</strong> {singleHome.category}
-              <br />
-              <strong>Category:</strong> {singleHome.tech_category}
+              <strong>Frequency:</strong> {singleHome.category}
+              <br /> {/* "tech_category" নয় */}
+              <strong>Rating:</strong> {singleHome.rating} {/* "ratting" নয় */}
             </p>
 
             <div className="mb-8">
